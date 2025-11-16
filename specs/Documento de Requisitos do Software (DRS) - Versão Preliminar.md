@@ -30,13 +30,13 @@
 
 # **Documento de Requisitos do Software (DRS) \- Versão Preliminar**
 
-## **1\. Introdução**
+## **Introdução**
 
-### **1.1. Propósito**
+### **Propósito**
 
 O propósito deste documento é especificar os requisitos do **Sistema Gerenciador de TCC** do IFPB, detalhando as funcionalidades, os dados e as restrições necessárias para resolver os problemas de burocracia, desorganização (uso de Excel) e falta de rastreabilidade do processo atual.
 
-### **1.2. Escopo do Produto**
+### **Escopo do Produto**
 
 O sistema será uma plataforma **Web** que automatizará e centralizará o fluxo de trabalho das defesas de TCC, desde a verificação de aptidão do aluno até a geração da ata final. 
 
@@ -50,7 +50,7 @@ O escopo abrange os seguintes usuários para o sistema:
   * Administrador do sistema  
     
 
-**1.3. Definições, Acrônimos e Abreviações**
+**Definições, Acrônimos e Abreviações**
 
 Esta subseção fornece as definições de todos os termos, acrônimos e abreviações necessárias à adequada interpretação do Documento de Requisitos. 
 
@@ -74,18 +74,18 @@ Exemplo: RF001, RF134, RNF134, NR212
 | **SUAP** | Sistema Unificado de Administração Pública |
 | **Pré-Banca** | Avaliação preliminar do trabalho antes da defesa final. |
 
-## **2\. Requisitos Funcionais**
+## **Requisitos Funcionais**
 
 Os requisitos são agrupados por ator e refletem as funcionalidades essenciais para que o sistema atenda à visão do produto.
 
-### **2.1. Requisitos Comuns**
+### **Requisitos Comuns**
 
 | ID | Requisito |
 | :---- | :---- |
 | RF001 | O sistema deve permitir que o usuário (todos os perfis) se logue no sistema para acessar as funcionalidades. |
 | RF002 | O sistema deve ser integrado ao SUAP para que seja possível realizar verificações e validações. |
 
-**2.2. Requisitos do Orientando** 
+**Requisitos do Orientando** 
 
 | ID | Requisito |
 | :---- | :---- |
@@ -98,7 +98,7 @@ Os requisitos são agrupados por ator e refletem as funcionalidades essenciais p
 | RF107 | O sistema deve permitir que o orientando visualize o histórico completo do seu TCC. |
 | RF108 | O sistema deve notificar o orientando sobre mudanças no status do trâmite. |
 
-**2.3**. **Requisitos do Orientador** 
+**Requisitos do Orientador** 
 
 | ID | Requisito |
 | :---- | :---- |
@@ -108,7 +108,7 @@ Os requisitos são agrupados por ator e refletem as funcionalidades essenciais p
 | RF204 | O sistema deve notificar automaticamente por email (ao orientador, membros da banca e orientando) sobre as informações da defesa agendada. |
 | RF205 | O sistema deve permitir ao orientador registrar notas e adicionar comentários finais para comprovar a aprovação ou reprovação. |
 
-**2.4. Requisitos do Coordenador** 
+**Requisitos do Coordenador** 
 
 | ID | Requisito |
 | :---- | :---- |
@@ -118,7 +118,7 @@ Os requisitos são agrupados por ator e refletem as funcionalidades essenciais p
 | RF304 | O sistema deve permitir ao coordenador cancelar uma defesa previamente marcada. |
 | RF305 | O sistema deve permitir ao coordenador verificar o histórico de defesas de trabalho de conclusão. |
 
-**2.5 Requisitos do Administrador**
+**Requisitos do Administrador**
 
 | ID | Requisito |
 | :---- | :---- |
@@ -129,7 +129,7 @@ Os requisitos são agrupados por ator e refletem as funcionalidades essenciais p
 | RF405 | O sistema deve permitir ao administrador gerenciar as permissões de acesso dos usuários. |
 | RF406 | O sistema deve permitir ao administrador restaurar o sistema a partir de backup em caso de falhas. |
 
-**3\. Requisitos Não-Funcionais**
+**Requisitos Não-Funcionais**
 
 | ID | Requisito |
 | :---- | :---- |
