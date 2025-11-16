@@ -7,14 +7,7 @@
 `Maria Luiza Silva de Lima`   
 `Pedro Lucas Silva Batista`
 
-**Protótipo do tipo Wireframe: Sistema Gerenciador de TCC (SIGT)**
-
 # 
-
-
-# **João Pessoa**
-
-**2025**
 
 # **Protótipo do tipo Wireframe: \- Versão Preliminar**
 
