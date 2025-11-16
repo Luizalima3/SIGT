@@ -1,4 +1,3 @@
-![][image1]  
 **Instituto Federal de Educação, Ciência e Tecnologia da Paraíba**  
   **Campus João Pessoa \- Unidade acadêmica de Informática**  
 **Curso superior de tecnologia em Sistemas para Internet**   
@@ -12,11 +11,6 @@
 
 # 
 
-# 
-
-# 
-
-# 
 
 # **João Pessoa**
 
