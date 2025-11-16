@@ -6,14 +6,9 @@
 `José Correia da Cruz Júnior`  
 `Maria Luiza Silva de Lima`   
 `Pedro Lucas Silva Batista`
-
+#
 **Requisitos de software: Sistema Gerenciador de TCC (SIGT)**
-
-#  
-
-# **João Pessoa**
-
-**2025**
+#
 
 # **Sumário**
 
