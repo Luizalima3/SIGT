@@ -65,9 +65,9 @@ Os casos de uso representam as funcionalidades essenciais, mapeadas a partir dos
 
 | Caso de uso | Título | Wireframes |
 | ----- | ----- | ----- |
-|![Tela de Login](imagens/tela-de-login.png) |  |  |
+|![Tela de Login](imagens/tela-de-login.jpg) |  |  |
 | UCS001 | Autenticação e Acesso ao Sistema |  |
-|![Cadastro Examinador](imagens/Cadastro-examinador.png) |  |  |
+|![Cadastro Examinador](imagens/Cadastro-examinador.jpg) |  |  |
 | UCS002 | Cadastro do Examinador |  |  |
-| ![Alerta de Requisitos](imagens/alerta-de-requisitos.png) |  |  |
+| ![Alerta de Requisitos](imagens/alerta-de-requisitos.jpg) |  |  |
 | UCS003 | Popup (Alerta de Inaptidão) |  |
