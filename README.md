@@ -1,1 +1,1 @@
-## SIGT - Sistema Gerenciador de  TCC 
+## SIGT - Sistema Gerenciador de  TCC 🎓
