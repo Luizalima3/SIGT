@@ -1,0 +1,18 @@
+@startuml GerenciarPermissoesSiGT
+
+left to right direction
+
+' Atores
+actor "Usuário do sistema" as user
+actor "Administrador" as adm
+
+' Relacionamentos entre atores (herança)
+user <|-- adm
+
+package "Gestão de Usuários e Perfis" {
+    usecase "Gerenciar permissões\n de acesso" as uc_gerenciar_permissoes
+
+    adm -- uc_gerenciar_permissoes
+}
+
+@enduml

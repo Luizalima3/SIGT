@@ -1,0 +1,20 @@
+@startuml FluxoTCC
+
+left to right direction
+
+' Atores
+actor "Usuário do sistema" as user
+actor "Usuários comuns" as common_user
+actor "Orientando" as ori
+
+' Relacionamentos entre atores (herança)
+user <|-- common_user
+common_user <|-- ori
+
+package "Fluxo do TCC" {
+    usecase "Verificar aptidão\n para defesa de TCC" as uc_verificar_aptidao
+
+    ori -- uc_verificar_aptidao
+}
+
+@enduml

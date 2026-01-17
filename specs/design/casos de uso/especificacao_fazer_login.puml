@@ -1,0 +1,14 @@
+@startuml FazerLoginSiGT
+
+left to right direction
+
+' Atores
+actor "Usuário do sistema" as user
+
+package "Autenticação" {
+    usecase "Fazer login\n no SiGT" as uc_fazer_login
+
+    user -- uc_fazer_login
+}
+
+@enduml

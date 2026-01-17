@@ -1,0 +1,14 @@
+@startuml EncerrarSessaoSiGT
+
+left to right direction
+
+' Atores
+actor "Usuário do sistema" as user
+
+package "Autenticação" {
+    usecase "Encerrar sessão\n no SiGT" as uc_encerrar_sessao
+
+    user -- uc_encerrar_sessao
+}
+
+@enduml
