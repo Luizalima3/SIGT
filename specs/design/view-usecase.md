@@ -9,7 +9,7 @@
 
 # 
 
-# **Protótipo do tipo Wireframe: \- Versão Preliminar**
+# **Casos de uso: \- Versão Preliminar**
 
 ### **Introdução**
 
