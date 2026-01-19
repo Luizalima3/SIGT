@@ -1,0 +1,18 @@
+@startuml SIGT_Modulo_Acesso
+left to right direction
+
+actor "Usuário" as user
+actor "SUAP" as suap <<System>>
+
+package "Autenticação" {
+    usecase "Login" as login
+    usecase "Validar no SUAP" as validar
+    usecase "Esqueci minha senha" as senha
+}
+
+user -- login
+user -- senha
+login ..> validar : <<include>>
+senha ..> validar : <<extend>>
+validar -- suap
+@enduml

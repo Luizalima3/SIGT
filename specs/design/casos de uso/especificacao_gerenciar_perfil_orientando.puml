@@ -1,20 +1,15 @@
-@startuml GerenciarPerfilOrientando
-
+@startuml UC_Gerenciar_Perfil
 left to right direction
 
-' Atores
-actor "Usuário do sistema" as user
-actor "Usuários comuns" as common_user
 actor "Orientando" as ori
+actor "SUAP" as suap <<System>>
 
-' Relacionamentos entre atores (herança)
-user <|-- common_user
-common_user <|-- ori
-
-package "Gestão de Usuários e Perfis" {
-    usecase "Gerenciar perfil\n do orientando" as uc_gerenciar_perfil_orientando
-
-    ori -- uc_gerenciar_perfil_orientando
+rectangle "SiGT - Perfil" {
+    usecase "Gerenciar perfil do orientando" as uc_perfil
+    usecase "Sincronizar dados oficiais" as uc_sinc
 }
 
+ori -- uc_perfil
+uc_perfil ..> uc_sinc : << Include >>
+uc_sinc -- suap : "RN01: Campos de visualização"
 @enduml

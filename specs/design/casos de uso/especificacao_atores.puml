@@ -1,0 +1,14 @@
+@startuml SIGT_Atores
+package "Atores do SiGT" {
+    actor "Usuário Logado" as user
+    actor "Orientando" as ori
+    actor "Orientador" as prof
+    actor "Coordenador" as coord
+    actor "Administrador do sistema" as adm
+
+    user <|-- ori
+    user <|-- prof
+    user <|-- coord
+    user <|-- adm
+}
+@enduml

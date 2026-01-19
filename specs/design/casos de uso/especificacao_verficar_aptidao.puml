@@ -1,0 +1,30 @@
+@startuml UC_Verificar_Aptidao_v1_1
+left to right direction
+skinparam packageStyle rectangle
+
+actor "Orientando" as ori
+actor "Coordenador de TCC" as coord
+actor "SUAP" as suap <<System>>
+
+rectangle "SiGT - Verificação Automática" {
+    usecase "Verificar aptidão para defesa" as uc_aptidao
+    usecase "Exibir Pop-up de Pendências" as uc_popup
+    usecase "Consultar Dados Acadêmicos" as uc_consulta
+}
+
+' Gatilho e atores
+ori -- uc_aptidao
+coord -- uc_aptidao 
+
+' Relacionamentos internos
+uc_aptidao ..> uc_consulta : << Include >>
+uc_aptidao <.. uc_popup : << Extend >> 
+
+' Integração externa
+uc_consulta -- suap : "API"
+
+note right of uc_popup
+  RN04: Lista requisitos
+  não cumpridos
+end note
+@enduml

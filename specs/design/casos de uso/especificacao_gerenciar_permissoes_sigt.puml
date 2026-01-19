@@ -1,18 +1,17 @@
-@startuml GerenciarPermissoesSiGT
-
+@startuml UC_Administracao_SiGT
 left to right direction
 
-' Atores
-actor "Usuário do sistema" as user
-actor "Administrador" as adm
+actor "Administrador do sistema" as adm
 
-' Relacionamentos entre atores (herança)
-user <|-- adm
-
-package "Gestão de Usuários e Perfis" {
-    usecase "Gerenciar permissões\n de acesso" as uc_gerenciar_permissoes
-
-    adm -- uc_gerenciar_permissoes
+rectangle "SiGT - Administração" {
+    usecase "Manter usuário no SiGT" as uc_manter
+    usecase "Gerenciar permissões de acesso" as uc_permissoes
+    usecase "Registrar log de alteração" as uc_log
 }
 
+adm -- uc_manter
+adm -- uc_permissoes
+
+uc_permissoes ..> uc_log : << Include >>
+uc_manter ..> uc_log : << Include >>
 @enduml
